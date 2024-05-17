@@ -17,4 +17,3 @@ def caesar_cipher(inputString, shiftAmount)
 end
 
 puts(caesar_cipher('TEste de string!@#$@', 1002))
-# => "Bmfy f xywnsl!"
