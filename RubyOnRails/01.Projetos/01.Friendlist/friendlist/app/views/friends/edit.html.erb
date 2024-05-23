@@ -2,9 +2,10 @@
 
 <%= render "form", friend: @friend %>
 
-<br>
+<div class="mb-3">
+  <%= link_to "Show this friend", @friend , class:"btn btn-primary"%>
+</div>
 
 <div>
-  <%= link_to "Show this friend", @friend %> |
-  <%= link_to "Back to friends", friends_path %>
+  <%= link_to "Back to friends", friends_path, class:"btn btn-secondary" %>
 </div>
